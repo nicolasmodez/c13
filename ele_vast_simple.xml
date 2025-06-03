@@ -15,7 +15,7 @@
               <Tracking event="complete"></Tracking>
             </TrackingEvents>
 
-            <NonLinear width="640" height="360" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:05">
+            <NonLinear width="480" height="70" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:05">
               <StaticResource creativeType="image/png"><![CDATA[
                 https://nicolasmodez.github.io/c13/left_bottom_ads_2.png?text=Publicidad+en+L
               ]]></StaticResource>
