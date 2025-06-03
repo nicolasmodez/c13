@@ -17,7 +17,7 @@
 
             <NonLinear width="640" height="360" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:05">
               <StaticResource creativeType="image/png"><![CDATA[
-                https://www.13.cl/internet/ejemplos/ELE/left_bottom_ads_2.png?text=Publicidad+en+L
+                https://nicolasmodez.github.io/c13/left_bottom_ads_2.png?text=Publicidad+en+L
               ]]></StaticResource>
 
               <NonLinearClickThrough><![CDATA[
