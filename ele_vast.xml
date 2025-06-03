@@ -1,0 +1,40 @@
+<VAST version="4.0">
+  <Ad id="nonLinearLAd">
+    <InLine>
+      <AdSystem>Custom-MidrollLAd</AdSystem>
+      <AdTitle>Midroll Overlay L Shape</AdTitle>
+
+      <Impression><![CDATA[tracking/impression]]></Impression>
+
+      <Creatives>
+        <Creative>
+          <NonLinearAds>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[tracking/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[tracking/start]]></Tracking>
+              <Tracking event="complete"><![CDATA[tracking/complete]]></Tracking>
+            </TrackingEvents>
+
+            <NonLinear width="480" height="70">
+              <StaticResource creativeType="application/javascript"><![CDATA[ele.js]]></StaticResource>
+
+              <NonLinearClickThrough><![CDATA[http://www.13.cl]]></NonLinearClickThrough>
+
+              <NonLinearClickTracking><![CDATA[tracking/click ]]></NonLinearClickTracking>
+
+              <AdParameters><![CDATA[
+                {
+                  "videoSelector": "#video",
+                  "containerSelector": ".player-container",
+                  "imageUrl": "left_bottom_ads_2.png?text=Publicidad+en+L",
+                  "showAt": 0.5,
+                  "duration": 5000
+                }
+              ]]></AdParameters>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
