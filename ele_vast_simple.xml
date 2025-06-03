@@ -1,0 +1,34 @@
+<VAST version="4.2">
+  <Ad id="nonLinearImageAd">
+    <InLine>
+      <AdSystem>SimpleOverlay</AdSystem>
+      <AdTitle>Overlay en forma de L</AdTitle>
+
+      <Impression></Impression>
+
+      <Creatives>
+        <Creative>
+          <NonLinearAds>
+            <TrackingEvents>
+              <Tracking event="creativeView"></Tracking>
+              <Tracking event="start"></Tracking>
+              <Tracking event="complete"></Tracking>
+            </TrackingEvents>
+
+            <NonLinear width="640" height="360" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:05">
+              <StaticResource creativeType="image/png"><![CDATA[
+                https://www.13.cl/internet/ejemplos/ELE/left_bottom_ads_2.png?text=Publicidad+en+L
+              ]]></StaticResource>
+
+              <NonLinearClickThrough><![CDATA[
+                http://www.13.cl/en-vivo
+              ]]></NonLinearClickThrough>
+
+              <NonLinearClickTracking></NonLinearClickTracking>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
